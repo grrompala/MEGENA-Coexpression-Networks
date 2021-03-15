@@ -1,0 +1,14 @@
+Check out the three csv files: these are necessary to run the eigengene-trait relationship tests (normalized gene counts, metadata, and each module-gene assignment)
+You can give files the same exact names for ease but any file names including the strings "count" "meta" and "module" will be recognized.
+
+Note for metadata: you can have as many columns (i.e., traits) as you want and binary character variables (e.g., yes or no) are fine 
+as they'll be converted to numerical values automatically
+
+
+Instructions for running:
+
+First run Eigengenes.R to make sure packages are installed and to establish the Eigengenie function.
+
+If it gives no errors, then open Run_eigengenie.R, set the dir argument to your with your three necessary CSVs,
+then run. 
+
